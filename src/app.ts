@@ -12,7 +12,6 @@ import {SearchBar} from './components/search-bar';
 /* Services */
 import {TodoService} from './services/todo-service';
 
-
 @Component({
   selector: 'app',
   directives:[MyInput,TodoList,StatusSelector,SearchBar],
